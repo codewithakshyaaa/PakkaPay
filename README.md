@@ -49,8 +49,8 @@ An advanced, end-to-end fintech solution engineered to eliminate queue friction 
 * Backend APIPython, Flask FrameworkAI & Computer VisionOpenCV, YOLO / Roboflow, Custom OCR PipelineVoice & Notifications 
 * Security & Ledger Custom Cryptographic Hashing (Blockchain Audit Trail)
 
-## 📂 Project StructurePlaintextautonomous-cheque-processor/
-```text
+## 📂 Project Structure
+```
 │
 ├── backend/
 │   ├── app.py               # Main Flask application entry point
@@ -81,7 +81,7 @@ source venv/bin/activate
 * TWILIO_AUTH_TOKEN=your_token_here
 *Run the application:Bashpython app.py
 
-## 📌 Usage GuideClerk Portal: 
+## 📌 Usage Guide-Clerk Portal: 
 Log into the web interface and use the camera capture tool to snap a clear photo of the physical cheque.
 Automated Verification: The system parses text, executes the AI cross-check, and computes the geo-velocity risk score.Customer Authorization: If flagged or required, the system dispatches an automated IVR call or SMS to the account holder's feature phone for voice confirmation.
 Final Settlement: Upon successful authorization, transaction details are sealed into the cryptographic blockchain audit trail, updating the clerk dashboard instantly.
