@@ -88,5 +88,5 @@ Final Settlement: Upon successful authorization, transaction details are sealed 
 ## 🗺️ Roadmap[x]
 Core OCR extraction and figure-to-word cross-verification[x] Color-coded geo-velocity risk dashboard[x] IVR and SMS integration for feature-phone authorization[ ] Advanced YOLO-based multi-cheque batch processing[ ] Extended mobile application wrapper for bank field agents
 
-##🤝 Contributing 
+## 🤝 Contributing 
 * Contributions, bug reports, and feature requests are welcome! Feel free to check out the issues page or submit a pull request.
