@@ -1,0 +1,6 @@
+{
+  "name": "PakkaPay",
+  "description": "Autonomous AI cheque processing, geo-velocity fraud detection, voice IVR authorization, UV watermark verification, and blockchain audit ledger for rural and global banking.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
