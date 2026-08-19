@@ -43,3 +43,50 @@ An advanced, end-to-end fintech solution engineered to eliminate queue friction 
                         │
                         ▼
          [ Cryptographic Blockchain Audit Trail ]
+```
+## 💻 Technology Stack
+* ComponentTechnology / ToolsFrontend UIHTML5, CSS3, JavaScript / React (Responsive Web Interface)
+* Backend APIPython, Flask FrameworkAI & Computer VisionOpenCV, YOLO / Roboflow, Custom OCR PipelineVoice & Notifications 
+* Security & Ledger Custom Cryptographic Hashing (Blockchain Audit Trail)
+
+## 📂 Project StructurePlaintextautonomous-cheque-processor/
+```text
+│
+├── backend/
+│   ├── app.py               # Main Flask application entry point
+│   ├── models/              # AI pipelines, OCR parsers, and blockchain logic
+│   ├── utils/               # Geo-velocity risk scoring & flash simulation helpers
+│   └── requirements.txt     # Python dependencies
+│
+├── frontend/
+│   ├── public/              # Static assets and index template
+│   └── src/                 # React components and dashboard views
+│
+├── .env.example             # Template for environment variables
+└── README.md                # Project documentation
+```
+## 🚀 Getting Started Prerequisites
+* Python 3.8+pip package managerNode.js & npm (for frontend components)
+* Installation & SetupClone the repository:
+  ``` git clone [https://github.com/codewithakshyaaa/autonomous-cheque-processor.git](https://github.com/codewithakshyaaa/autonomous-cheque-processor.git)```
+* cd autonomous-cheque-processor
+* Set up the backend environment:Bashcd backend
+```python -m venv venv```
+source venv/bin/activate
+ # On Windows: venv\Scripts\activate
+* pip install -r requirements.txt
+* Configure environment variables:Create a .env file in the root directory based on .env.example:Code snippetFLASK_APP=app.py
+* FLASK_ENV=development
+* TWILIO_ACCOUNT_SID=your_sid_here
+* TWILIO_AUTH_TOKEN=your_token_here
+*Run the application:Bashpython app.py
+
+## 📌 Usage GuideClerk Portal: 
+Log into the web interface and use the camera capture tool to snap a clear photo of the physical cheque.
+Automated Verification: The system parses text, executes the AI cross-check, and computes the geo-velocity risk score.Customer Authorization: If flagged or required, the system dispatches an automated IVR call or SMS to the account holder's feature phone for voice confirmation.
+Final Settlement: Upon successful authorization, transaction details are sealed into the cryptographic blockchain audit trail, updating the clerk dashboard instantly.
+## 🗺️ Roadmap[x]
+Core OCR extraction and figure-to-word cross-verification[x] Color-coded geo-velocity risk dashboard[x] IVR and SMS integration for feature-phone authorization[ ] Advanced YOLO-based multi-cheque batch processing[ ] Extended mobile application wrapper for bank field agents
+
+##🤝 Contributing 
+* Contributions, bug reports, and feature requests are welcome! Feel free to check out the issues page or submit a pull request.
